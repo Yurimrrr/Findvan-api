@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Domain.Entities;
+using FindVan.Domain.Entities;
 
-namespace Todo.Domain.Repositores
+namespace FindVan.Domain.Repositores
 {
     public interface IUserRepository
     {
@@ -15,9 +15,6 @@ namespace Todo.Domain.Repositores
 
         User GetById(string idFirebase);
 
-        IEnumerable<User> GetAll(string user);
-        IEnumerable<User> GetAllDone(string user);
-        IEnumerable<User> GetAllUndone(string user);
-        IEnumerable<User> GetByPeriod(string user, DateTime date, bool done);
+        IEnumerable<User> GetAll();
     }
 }
