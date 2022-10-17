@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.Domain.Entities
+namespace FindVan.Domain.Entities
 {
     public class User : Entity
     {

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Todo.Domain.Commands.Contracts;
+using FindVan.Domain.Commands.Contracts;
 
-namespace Todo.Domain.Commands
+namespace FindVan.Domain.Commands
 {
     public class GenericCommandResult : ICommandResult
     {

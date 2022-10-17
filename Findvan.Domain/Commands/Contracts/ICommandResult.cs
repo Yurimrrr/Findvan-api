@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Todo.Domain.Commands.Contracts
+namespace FindVan.Domain.Commands.Contracts
 {
     public class ICommandResult
     {
